@@ -1,0 +1,74 @@
+SENSOR PROXIMITY
+adalah sensor yang mengunakan sinyal atau cahaya 
+infra merah yang tidak dapat dilihat secara mata telnjang, 
+sensor ini mengunakan 2 buah led khusus,
+LED ir dan photodiode cara kerjanya hampir sama 
+dengan ultrasonic namun pada proximity mengunakan
+cahaya sebagai pantulan datanya dan led sebagai triger sinyalnya.
+
+
+
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd (0x27,16,2);//  inisialisasi pin
+int ProxSensor = A1; 
+int Buzzer = 9; 
+int button = 8;
+int led1= 10;
+int inputVal = 0;
+int count, cout;
+void setup() {
+ pinMode(Buzzer, OUTPUT);// inisialisasi IO
+ pinMode(ProxSensor, INPUT);
+ pinMode(led1, OUTPUT);
+ Serial.begin(9600);
+ lcd.init();
+ lcd.backlight();
+}
+
+void loop() {
+if(digitalRead(button) == LOW){
+  count++;
+  cout++;
+}
+  if(count >= 1){
+      if (digitalRead(ProxSensor) == LOW) {
+      Serial.println("Terdeteksi Halangan!");
+      tone(Buzzer, 123);
+      inputVal = analogRead(ProxSensor);
+      Serial.println(inputVal);
+      delay(1000);
+      if(cout >= 2){
+        lcd.setCursor(2,0);
+        lcd.print("PElan pelan");
+        delay(100);
+        if(cout >=3){
+          digitalWrite(led1, HIGH);
+          delay(1000);
+          if(cout >=3){
+            cout =1;
+          }
+        }
+      }
+      } 
+      
+      if (digitalRead(ProxSensor) == HIGH) {
+      Serial.println("Clear!");
+      tone(Buzzer, 65);
+      inputVal = analogRead(ProxSensor);
+      Serial.println(inputVal);
+      delay(1000);
+       if(cout >= 2){
+        lcd.setCursor(2,0);
+        lcd.print("mangga");
+        delay(100);
+        if(cout >=3){
+          digitalWrite(led1, LOW);
+          delay(1000);
+          if(cout >=3){
+            cout =1;
+          }
+        }
+      }
+      } 
+  }
+}
