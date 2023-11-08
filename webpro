@@ -1,0 +1,1028 @@
+    Web Program
+
+
+Question 1
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Diberikan sebuah elemen div dengan atribut class "myclass", cara yang tepat untuk memberikan style pada kelas tersebut adalah ....
+
+Select one:
+
+A.
+.myclass {} 
+
+
+B.
+#myclass {}
+
+
+C.
+class.myclass {}
+
+
+D.
+class{ myclass: {} }
+
+
+E.
+myclass {}
+
+Feedback
+Your answer is correct.
+The correct answer is:
+.myclass {}
+
+Question 2
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Cara yang tepat untuk memanggil file javascript dengan nama myscript.js kedalam file html adalah ....
+
+Select one:
+
+A.
+<link rel="javascript" href="myscript.js" >
+
+
+B.
+<script rel="javascript" href="myscript.js" >
+
+
+C.
+<script href="myscript.js" >
+
+
+D.
+<script src="myscript.js" > 
+
+
+E.
+<link rel="javascript" src="myscript.js" >
+
+Feedback
+Your answer is correct.
+The correct answer is:
+<script src="myscript.js" >
+
+Question 3
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Pernyataan berikut ini yang benar terkait margin adalah ....
+
+Select one:
+
+A.
+Tidak tahu
+
+
+B.
+untuk membuat halaman berada di posisi tengah (kanan-kiri) maka digunakan margin auto 
+
+
+C.
+margin hanya dapat dipakai oleh elemen div saja
+
+
+D.
+margin merupakan jarak antara sebuah elemen ke bagian dalam
+
+
+E.
+margin sama dengan padding
+
+Feedback
+Your answer is correct.
+The correct answer is:
+untuk membuat halaman berada di posisi tengah (kanan-kiri) maka digunakan margin auto
+
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Cara menuliskan sebuah fungsi dengan nama Add yang mengandung 2 parameter adalah ....
+
+Select one:
+
+A.
+add(param1, param2){}
+
+
+B.
+add function (param1, param2){}
+
+
+C.
+function add(param1, param2){} 
+
+
+D.
+function = add(param1, param2){}
+
+
+E.
+function: add(param1, param2){}
+
+Feedback
+Your answer is correct.
+The correct answer is:
+function add(param1, param2){}
+
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+sebuah event pada javascript yang akan mengubah sesuatu ketika pengguna memilih sesuatu pada form elemen select adalah ....
+
+Select one:
+
+A.
+onSubmit()
+
+
+B.
+onBlur()
+
+
+C.
+onClick()
+
+
+D.
+onKeyup()
+
+
+E.
+onChange() 
+
+Feedback
+Your answer is correct.
+The correct answer is:
+onChange()
+
+Question 6
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Atribut pada sebuah form yang mengharuskan pengguna memasukkan nilai adalah ....
+
+Select one:
+
+A.
+value
+
+
+B.
+type
+
+
+C.
+requirement
+
+
+D.
+required 
+
+
+E.
+important 
+
+Feedback
+Your answer is correct.
+The correct answer is:
+required
+
+Question 7
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Diberikan sebuah script seperti ini: <p id="hello">ini dokumen rahasia</p>. Cara yang tepat untuk mengubah isi dari elemen p tersebut adalah ....
+
+Select one:
+
+A.
+getElementByName("hello").innerHTML = "Selamat Pagi Indonesia"
+
+
+B.
+document.GetElementById("hello").innerHTML = "Selamat Pagi Indonesia" 
+
+
+C.
+Semua benar
+
+
+D.
+getElementByTag("p").innerHTML = "Selamat Pagi Indonesia"
+
+
+E.
+document.GetElementByName("hello").innerHTML = "Selamat Pagi Indonesia"
+
+Feedback
+Your answer is correct.
+The correct answer is:
+document.GetElementById("hello").innerHTML = "Selamat Pagi Indonesia"
+
+Question 8
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Bagaimana menuliskan komentar yang benar pada css?
+
+Select one:
+
+A.
+// ini adalah komentar css
+
+
+B.
+<!-- ini adalah komentar css -->
+
+
+C.
+# ini adalah komentar css
+
+
+D.
+// ini adalah komentar css //
+
+
+E.
+/* ini adalah komentar css */ 
+
+Feedback
+Your answer is correct.
+The correct answer is:
+/* ini adalah komentar css */
+
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+sebuah event pada javascript yang akan mengubah sesuatu ketika elemen html tersebut di klik adalah ....
+
+Select one:
+
+A.
+onClick() 
+
+
+B.
+click()
+
+
+C.
+onMouseClick()
+
+
+D.
+onDoubleClick()
+
+
+E.
+clickOn()
+
+Feedback
+Your answer is correct.
+The correct answer is:
+onClick()
+
+Question 10
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Element HTML untuk heading yang paling besar adalah ....
+
+Select one:
+
+A.
+<head></head> 
+
+
+B.
+<strong></strong>
+
+
+C.
+<heading></heading>
+
+
+D.
+<h6></h6>
+
+
+E.
+<H1></H1>
+
+Feedback
+Your answer is incorrect.
+The correct answer is:
+<H1></H1>
+
+Question 11
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Cara menuliskan yang benar terkait percabangan IF jika i tidak sama dengan 5 adalah ....
+
+Select one:
+
+A.
+if (i != 5) 
+
+
+B.
+if i !==5
+
+
+C.
+if (i not 5)
+
+
+D.
+if(i >< 5)
+
+
+E.
+if (i <> 5)
+
+Feedback
+Your answer is correct.
+The correct answer is:
+if (i != 5)
+
+Question 12
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Tipe tombol pada sebuah form yang tidak otomatis mensubmit form tersebut adalah ....
+
+Select one:
+
+A.
+<input type="submit" value="" > 
+
+
+B.
+<input type="button" value="" >
+
+
+C.
+<input type="reset" value="" >
+
+
+D.
+<input type="bottom" value="" >
+
+
+E.
+<input type="submission" value="" >
+
+Feedback
+Your answer is incorrect.
+The correct answer is:
+<input type="button" value="" >
+
+Question 13
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Cara yang benar terkait penulisan komentar multibaris pada javasript adalah ....
+
+Select one:
+
+A.
+/** Ini adalah komentar
+
+multibaris /**
+
+
+B.
+/* Ini adalah komentar
+
+multibaris */ 
+
+
+C.
+// Ini adalah komentar
+
+multibaris //
+
+
+D.
+## Ini adalah komentar
+
+multibaris ##
+
+
+E.
+*/ Ini adalah komentar
+
+multibaris /*
+
+Feedback
+Your answer is correct.
+The correct answer is:
+/* Ini adalah komentar
+
+multibaris */
+
+Question 14
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Berikut ini yang bukan tag/element HTML yang sifatnya blok adalah ....
+
+Select one:
+
+A.
+<div>
+
+
+B.
+<footer>
+
+
+C.
+<p>
+
+
+D.
+<span> 
+
+
+E.
+<section>
+
+Feedback
+Your answer is correct.
+The correct answer is:
+<span>
+
+Question 15
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Untuk menyisipkan file css dengan nama mystyle.css ke dalam file html yang benar adalah ....
+
+Select one:
+
+A. <link rel="stylesheet" href="mystyle.css">
+
+B.
+<style href="mystyle.css" >
+
+
+C.
+<hyperlink rel="stylesheet" href="mystyle.css">
+
+
+D.
+<stylesheet>mystyle.css</stylesheet>
+
+
+E.
+<style src="mystyle.css" >
+
+Feedback
+Your answer is correct.
+The correct answer is: <link rel="stylesheet" href="mystyle.css">
+Question 16
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+CSS kepanjangannya adalah ....
+Select one:
+
+A.
+Custom System Styles 
+
+
+B.
+Cascading Style Sheet 
+
+
+C.
+Custom Style Sheet
+
+
+D.
+Cascading Sheet Style
+
+
+E.
+Cascading Style System
+
+Feedback
+Your answer is correct.
+The correct answer is:
+Cascading Style Sheet
+
+Question 17
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Diberikan sebuah judul halaman berita dengan elemen h3. Cara membuat judul tersebut menjadi berukuran 14pt dan bold adalah ....
+
+Select one:
+
+A.
+h3 { text-size: 14pt; text-weight: bold; }
+
+
+B.
+h3 { text-size: 14pt; font-weight: bold; }
+
+
+C.
+h3 { font-size: 14pt; font-weight: bold; } 
+
+
+D.
+h3 { font-size: 14pt, font-weight: bold; }
+
+
+E.
+h3 { font-size: 14pt; text-weight: bold; }
+
+Feedback
+Your answer is correct.
+The correct answer is:
+h3 { font-size: 14pt; font-weight: bold; }
+
+Question 18
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Penulisan tag HTML yang benar untuk membuat link adalah ....
+
+Select one:
+
+A.
+<a href="www.telkomuniversity.ac.id">Telkom University</a> 
+
+
+B.
+<a name="www.telkomuniversity.ac.id">Telkom University</a>
+
+
+C.
+<hyperlink url="www.telkomuniversity.ac.id">Telkom University</hyperlink>
+
+
+D.
+<link url="www.telkomuniversity.ac.id">Telkom University</link>
+
+
+E.
+<a url="www.telkomuniversity.ac.id">www.telkomuniversity.ac.id</a>
+
+Feedback
+Your answer is correct.
+The correct answer is:
+<a href="www.telkomuniversity.ac.id">Telkom University</a>
+
+Question 19
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Atribut pada element gambar yang muncul ketika path pada gambar tidak ditemukan adalah ....
+
+Select one:
+
+A.
+placeholder=""
+
+
+B.
+src=""
+
+
+C.
+alt="" 
+
+
+D.
+href=""
+
+
+E.
+caption=""
+
+Feedback
+Your answer is correct.
+The correct answer is:
+alt=""
+
+Question 20
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Apa kepanjangan dari HTML?
+
+Select one:
+
+A.
+Hyperlink and Manipulation Language
+
+
+B.
+Hypermedia and Text Markup Language
+
+
+C.
+Hypertext Manipulation Language
+
+
+D.
+Hyperlink and Markup Language
+
+
+E.
+Hypertext Markup Language 
+
+Feedback
+Your answer is correct.
+The correct answer is:
+Hypertext Markup Language
+
+Question 21
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Cara menuliskan sebuah variabel dengan nama myVar yang benar adalah ....
+
+Select one:
+
+A.
+let myVar; 
+
+
+B.
+int myVar;
+
+
+C.
+var myVar();
+
+
+D.
+int myVar = 0;
+
+
+E.
+Semua jawaban benar
+
+Feedback
+Your answer is correct.
+The correct answer is:
+let myVar;
+
+Question 22
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Berikut ini pernyataan yang benar terkait menambahkan css ke dalam file HTML adalah ....
+
+Select one:
+
+A.
+Semuanya salah
+
+
+B.
+Semuanya benar 
+
+
+C.
+dengan cara dipanggil dari file dengan ekstensi css pada menggunakan elemen <link>
+
+
+D.
+dengan cara dituliskan pada bagian <head> pada file html
+
+
+E.
+dengan cara disisipkan pada sebuah elemen html
+
+Feedback
+Your answer is correct.
+The correct answer is:
+Semuanya benar
+
+Question 23
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Perhatikan daftar berikut:
+
+data pertama
+data kedua
+data ketiga
+element html mana yang dapat menampilkan daftar seperti diatas?
+
+
+
+Select one:
+
+A.
+<dd></dd>
+
+
+B.
+<ol></ol>
+
+
+C.
+<dt></dt>
+
+
+D.
+<li></li> 
+
+
+E.
+<ul></ul>
+
+Feedback
+Your answer is incorrect.
+The correct answer is:
+<ol></ol>
+
+Question 24
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Metode yang benar terkait form pada html adalah ....
+Select one:
+
+A.
+method="get"
+
+
+B.
+method="put"
+
+
+C.
+method="post"
+
+
+D.
+Semuanya benar 
+
+
+E.
+method="delete"
+
+Feedback
+Your answer is correct.
+The correct answer is:
+Semuanya benar
+
+Question 25
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+elemen html apa yang digunakan untuk menuliskan kode javascript?
+
+Select one:
+
+A.
+<script> 
+
+
+B.
+<js>
+
+
+C.
+<scripting>
+
+
+D.
+<java>
+
+
+E.
+<javascript>
+
+Feedback
+Your answer is correct.
+The correct answer is:
+<script>
+
+Question 26
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Untuk membulatkan sebuah angka desimal menggunakan fungsi ....
+
+Select one:
+
+A.
+Math.ceil()
+
+
+B.
+ceil()
+
+
+C.
+Round()
+
+
+D.
+Math.round() 
+
+
+E.
+Math.r()
+
+Feedback
+Your answer is correct.
+The correct answer is:
+Math.round()
+
+Question 27
+Complete
+Marked out of 70.00
+Not flaggedFlag question
+Question text
+Buatlah web sederhana dengan ketentuan sebagai berikut
+
+Html5, css3, dan Java script 
+Responsif layout
+Form validation sederhana
+Minimal 3 pages
+
+
+HTML document index.html
+
+HTML document login.html
+
+HTML document registrasi.html
+
+JavaScript source script.js
+
+Cascading Style-Sheet style.css
+
+Question 28
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Cara menuliskan sebuah array yang benar pada javascript adalah .....
+
+Select one:
+
+A.
+var arr = ["satu", "dua", "tiga"] 
+
+
+B.
+var arr = [satu, dua, tiga]
+
+
+C.
+var arr = {satu, dua, tiga}
+
+
+D.
+let arr[] = [satu, dua, tiga]
+
+
+E.
+let arr = ('satu', 'dua', 'tiga')
+
+Feedback
+Your answer is correct.
+The correct answer is:
+var arr = ["satu", "dua", "tiga"]
+
+Question 29
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Bagaimana caranya membuat sebuah border dengan tebal 2px diatas, 4px dibawah, 6px di sebalah kiri, dan 8px di sebalah kanan?
+
+Select one:
+
+A.
+border-width: 2px 8px 4px 6px; 
+
+
+B.
+border-size: 2px 8px 4px 6px;
+
+
+C.
+border= 2px 8px 4px 6px;
+
+
+D.
+border-size: 2px 6px 4px 8px;
+
+
+E.
+border-width: 2px 4px 6px 8px;
+
+Feedback
+Your answer is correct.
+The correct answer is:
+border-width: 2px 8px 4px 6px;
+
+Question 30
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Penulisan inline css yang benar adalah ....
+
+Select one:
+
+A.
+<link rel="stylesheet" url="style.css" >
+
+
+B.
+<p style="background:#123"> 
+
+
+C.
+<p style="background-color= #123456">
+
+
+D.
+<link rel="stylesheet" href="style.css" >
+
+
+E.
+<p style="background=#123456">
+
+Feedback
+Your answer is correct.
+The correct answer is:
+<p style="background:#123">
+
+Question 31
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Cara mengganti semua elemen H1 pada sebuah file HTML yang benar adalah ....
+
+Select one:
+
+A.
+all.h1 { background-color: grey; }
+
+
+B.
+h1.all ( background-color: grey; )
+
+
+C.
+all.h1 ( background-color: grey; )
+
+
+D.
+h1.all { background-color: grey; }
+
+
+E.
+h1 { background-color: grey; } 
+
+Feedback
+Your answer is correct.
+The correct answer is:
+h1 { background-color: grey; }
